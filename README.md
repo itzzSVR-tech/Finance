@@ -16,21 +16,21 @@
 
 ## 📋 Table of Contents
 
-- [Introduction](#introduction)
-- [Tech Stack](#tech-stack)
-- [Key Features](#key-features)
-- [Quick Start Guide](#quick-start-guide)
-- [Project Structure](#project-structure)
-- [Role-Based Access](#role-based-access)
-- [Theme Engine](#theme-engine)
+- [🏗️ Introduction](#introduction)
+- [🛠️ Tech Stack](#tech-stack)
+- [✨ Key Features](#key-features)
+- [🤸 Quick Start](#quick-start)
+- [📂 Project Structure](#project-structure)
+- [🔐 Role-Based Access](#role-based-access)
+- [🎨Theme Engine](#theme-engine)
 
 ---
 
-## 🏗️ Introduction
+## <a name="introduction">🏗️ Introduction</a>
 
 The **`Finance` Dashboard** is designed for modern wealth management. It focuses on visual excellence, smooth interactions, and actionable data. The application simulates a real-world SaaS environment with persistent state, multi-page routing, and responsive layouts.
 
-## 🛠️ Tech Stack
+## <a name="tech-stack">🛠️ Tech Stack</a>
 
 - **Framework**: [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
 - **Type Safety**: [TypeScript](https://www.typescriptlang.org/)
@@ -41,7 +41,7 @@ The **`Finance` Dashboard** is designed for modern wealth management. It focuses
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Routing**: [React Router v6](https://reactrouter.com/)
 
-## ✨ Key Features
+## <a name="key-features">✨ Key Features</a>
 
 ### 1. Multi-Page Experience
 
@@ -74,25 +74,32 @@ Supports **Dark** and **Light** modes with persistent storage.
 
 ---
 
-## 🚀 Quick Start Guide
+## <a name="quick-start">🤸 Quick Start</a>
 
-### Prerequisites
+Follow these steps to set up the project locally on your machine.
 
-- [Node.js](https://nodejs.org/) (v18.0 or higher)
-- npm or yarn
+**Prerequisites**
 
-### Installation
+Make sure you have the following installed on your machine:
 
-1. Navigate to the project directory:
-    ```bash
-    cd financeUI
-    ```
-2. Install dependencies:
-    ```bash
-    npm install
-    ```
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-### Development
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/itzzSVR-tech/Finance
+cd Finance
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
 
 Start the local development server:
 
@@ -110,7 +117,7 @@ npm run build
 
 ---
 
-## 📂 Project Structure
+## <a name="project-structure">📂 Project Structure</a>
 
 ```text
 src/
@@ -125,14 +132,14 @@ src/
 
 ---
 
-## 🔐 Role-Based Access
+## <a name="role-based-access">🔐 Role-Based Access</a>
 
 Toggle roles in the **Settings** or **Header** to see the UI adapt:
 
 - **Admin**: Floating `+` button appears; `Trash` icons appear in lists.
 - **Viewer**: All management controls are hidden for a read-only experience.
 
-## 🎨 Theme Engine
+## <a name="theme-engine">🎨 Theme Engine</a>
 
 The application uses a custom CSS-variable driven theme engine.
 
