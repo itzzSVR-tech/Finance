@@ -28,7 +28,7 @@
 
 ## 🏗️ Introduction
 
-The **Finance Dashboard UI** is designed for modern wealth management. It focuses on visual excellence, smooth interactions, and actionable data. The application simulates a real-world SaaS environment with persistent state, multi-page routing, and responsive layouts.
+The **`Finance` Dashboard** is designed for modern wealth management. It focuses on visual excellence, smooth interactions, and actionable data. The application simulates a real-world SaaS environment with persistent state, multi-page routing, and responsive layouts.
 
 ## 🛠️ Tech Stack
 
